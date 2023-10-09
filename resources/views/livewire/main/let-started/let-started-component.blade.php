@@ -1,0 +1,354 @@
+<div id="lets-started-one">
+    
+    
+    
+<?php
+$route = "{{ url('lets-started') }}";
+if ($route === "{{ url('lets-started') }}") {
+    $cssFiles = [
+        "public/css/new-css/bootstrap.min.css",
+        "public/css/new-css/fontawesome.min.css",
+        "public/css/new-css/owl.carousel.min.css",
+        "public/css/new-css/magnific-popup.css",
+        "public/css/new-css/helper.css",
+        // "public/css/new-css/style.css",
+        "public/css/new-css/responsive.css"
+    ];
+
+    foreach ($cssFiles as $cssFile) {
+        echo '<link rel="stylesheet" type="text/css" href="' . $cssFile . '">';
+    }
+
+    // Get the main div element by its id
+    // const mainDiv = document.getElementById("lets-started");
+
+    // // Change the background color to red
+
+    // mainDiv.classList.add("");
+} else {
+    // mainDiv.style.backgroundColor = "none";
+
+    // mainDiv.classList.add("");
+}
+?>
+    <!--{{-- Close your eyes. Count to one. That is how long forever feels. --}}-->
+    
+    <!--<h1>Lets stared</h1>-->
+    
+    <style>
+
+.lets-started{ 	background: -o-linear-gradient(330deg, rgba(249,240,130,1) 0%, rgba(239,237,134,1) 16%, rgba(214,232,147,1) 36%, rgba(172,222,168,1) 60%, rgba(114,209,197,1) 82%, rgba(42,193,233,1) 100%);
+	background: linear-gradient(120deg, rgba(249,240,130,1) 0%, rgba(239,237,134,1) 16%, rgba(214,232,147,1) 36%, rgba(172,222,168,1) 60%, rgba(114,209,197,1) 82%, rgba(42,193,233,1) 100%);}
+
+.let_started_area{
+	/* padding-bottom: 19.6rem;*/
+	/*padding-top: 13.5rem; */
+	/*background: -o-linear-gradient(330deg, rgba(249,240,130,1) 0%, rgba(239,237,134,1) 16%, rgba(214,232,147,1) 36%, rgba(172,222,168,1) 60%, rgba(114,209,197,1) 82%, rgba(42,193,233,1) 100%);*/
+	/*background: linear-gradient(120deg, rgba(249,240,130,1) 0%, rgba(239,237,134,1) 16%, rgba(214,232,147,1) 36%, rgba(172,222,168,1) 60%, rgba(114,209,197,1) 82%, rgba(42,193,233,1) 100%);*/
+}
+.let_started_area h2{
+	font-size: 6rem;
+	font-weight: 600;
+	line-height: 1;
+	color: #000;
+	padding-bottom: .3rem;
+}
+.let_started_area p{
+	font-size: 1.8rem;
+	color:#000;
+
+}
+.let_started_left h3{
+	font-size: 2.7rem;
+	color: #000;
+	line-height: 1.2;
+	font-weight: 600;
+}
+.let_started_left h3 span{
+	position: relative;
+}
+.let_started_left h3 span::before{
+	content: '';
+    position: absolute;
+    height: 0.5rem;
+    width: 200rem;
+    top: 58%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    right: 110%;
+    background-color: #000;
+}
+.let_started_right h3{
+	font-size: 2.7rem;
+	color: #000;
+	line-height: 1.2;
+	font-weight: 600;
+}
+.let_started_right h3 span{
+	position: relative;
+}
+.let_started_right h3 span::before{
+	content: '';
+    position: absolute;
+    height: 0.5rem;
+    width: 200rem;
+    top: 58%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 110%;
+    background-color: #000;
+}
+.lets_button{
+	display: inline-block;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    color: #000;
+    background-color: #F9F082;
+    padding: 0.5rem 1.4rem;
+    letter-spacing: 0.2rem;
+    font-weight: 400;
+    border-bottom: 0.2rem solid #000;
+    border-right: 0.2rem solid #000;
+    min-width: 12rem;
+    text-align: center;
+}
+.lets_button:hover {
+    background-color: #000 !important;
+    color: #fff;
+    border-color: #FFC466;
+}
+.lets-line{
+    width: 3.3rem;
+    height: 0.1rem;
+    background-color: #000;
+}
+.new_button_area{
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-column-gap: .5rem;
+	   -moz-column-gap: .5rem;
+	        column-gap: .5rem;
+}
+.lets_button.lets_button_two{
+	background-color: #FFC466;
+}
+
+.lets_button:hover{
+    
+    color:white !important;
+}
+
+
+</style>
+
+
+
+
+       <!--<link href="public/css/new-css/bootstrap.min.css" rel="stylesheet" type="text/css" />-->
+       <!-- <link href="public/css/new-css/fontawesome.min.css" rel="stylesheet" type="text/css" />-->
+       <!-- <link href="public/css/new-css/owl.carousel.min.css" rel="stylesheet" type="text/css" />-->
+       <!-- <link href="public/css/new-css/magnific-popup.css" rel="stylesheet" type="text/css" />-->
+       <!-- <link href="public/css/new-css/helper.css" rel="stylesheet" type="text/css" />-->
+        <!--<link href="public/css/new-css/style.css" rel="stylesheet" type="text/css" />-->
+       <!-- <link href="public/css/new-css/responsive.css" rel="stylesheet" type="text/css" />-->
+        
+
+
+<!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">-->
+
+
+<!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+
+<!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+<!--<div id="lets-started-one" style="display:block" class="let_started_area " >-->
+<!--                <div class="">-->
+<!--                    <div class="row">-->
+<!--                        <div class="col-lg-12 text-center">-->
+<!--                            <h2>Lets get Started</h2>-->
+<!--                            <p>First, tell us what you're looking for.</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="row">-->
+<!--                        <div class="col-md-6">-->
+<!--                            <div class="let_started_left text-end">-->
+<!--                                <h3 class="mt_25">I'm looking</h3>-->
+<!--                                <h3><span>for work</span></h3>-->
+<!--                                <p class="mt_25 mb_25">Find great freelance and part-time <br> work with amazing companies.</p>-->
+<!--                                <div class="new_button_area d-flex justify-content-end">-->
+<!--                                    <div class="lets-line"></div>-->
+<!--                                     <a href="{{url('auth/register?user_type=consultant')}}" class="lets_button lets_button_two">JOIN</a>-->
+                                     
+<!--                                     <a style="cursor:pointer" wire:click="join" class="lets_button lets_button_two">JOIN</a>-->
+<!--                                </div>-->
+
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col-md-6">-->
+<!--                            <div class="let_started_right">-->
+<!--                                <h3 class="mt_25">I want to hire</h3>-->
+<!--                                <h3><span>an expert</span></h3>-->
+<!--                                <p class="mt_25 mb_25">Find and collaborate <br> with a specialist in their field.</p>-->
+<!--                                <div class="new_button_area">-->
+<!--                                      <a href="{{url('auth/register?user_type=client')}}"  class="lets_button">HIRE</a>-->
+                                      
+                                      
+<!--                                       <a style="cursor:pointer" wire:click="hire" class="lets_button">HIRE</a>-->
+<!--                                    <div class="lets-line"></div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+            
+            
+ 
+<!---<script>
+    // Check if the current route matches the desired URL
+if (window.location.href === "{{ url('lets-started') }}") {
+    
+    
+    
+// const bootstrapCSS = document.createElement("link");
+
+//   // Set the attributes of the link element
+//   bootstrapCSS.href = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css";
+//   bootstrapCSS.rel = "stylesheet";
+//   bootstrapCSS.integrity = "sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3";
+//   bootstrapCSS.crossOrigin = "anonymous";
+
+//   // Append the link element to the head of the document
+//   document.head.appendChild(bootstrapCSS);
+  // Get the main div element by its id
+  
+  
+  var cssFiles = [
+    "public/css/new-css/bootstrap.min.css",
+    "public/css/new-css/fontawesome.min.css",
+    "public/css/new-css/owl.carousel.min.css",
+    "public/css/new-css/magnific-popup.css",
+    "public/css/new-css/helper.css",
+    // "public/css/new-css/style.css",
+    "public/css/new-css/responsive.css"
+  ];
+
+  cssFiles.forEach(function(cssFile) {
+    var link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.type = "text/css";
+    link.href = cssFile;
+    document.head.appendChild(link);
+  });
+  const mainDiv = document.getElementById("lets-started");
+
+  // Change the background color to red
+  mainDiv.style.backgroundColor = "red";
+  
+  mainDiv.classList.add("lets-started");
+}
+else{
+    mainDiv.style.backgroundColor = "none"; 
+    
+      mainDiv.classList.add("");
+}
+    
+    
+</script>-->
+
+
+  
+    
+ <div id="lets-started-two"  style="display:block !important; width:80%" class="pt-8 pb-5">
+  <div class="">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="text-5xl font-semibold leading-none text-black pb-1">Lets get Started</h2>
+        <p class="text-xl text-black">First, tell us what you're looking for.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="let_started_left text-end">
+          <h3 class="mt-6 text-2xl font-semibold leading-tight text-black relative">
+            I'm looking
+            <!--<span class="absolute h-0.5 w-80 top-1/2 transform -translate-y-1/2 right-full bg-black"></span>-->
+            
+              <!--<hr>-->
+          </h3>
+          <h3 class="text-2xl font-semibold leading-tight text-black">for work</h3>
+          <p class="mt-6 mb-6 text-xl text-black">Find great freelance and part-time work with amazing companies.</p>
+          <div class="new_button_area flex justify-end items-center">
+            <div class="lets-line w-11 h-0.5 bg-black"></div>
+            <a style="cursor:pointer" href="{{ url('/auth/register-consultant') }}" id="freelancer-link" class="lets_button lets_button_two bg-yellow-400 text-black py-2 px-5 text-base font-medium border-b-2 border-r-2"
+            
+            >JOIN</a>
+             <!--<div class="lets-line w-11 h-0.5 bg-black"></div>-->
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="let_started_right">
+          <h3 class="mt-6 text-2xl font-semibold leading-tight text-black relative">
+            I want to hire
+            <!--<span class="absolute h-0.5 w-80 top-1/2 transform -translate-y-1/2 left-full bg-black"></span>-->
+            <!--<hr>-->
+          </h3>
+          <h3 class="text-2xl font-semibold leading-tight text-black">an expert</h3>
+          <p class="mt-6 mb-6 text-xl text-black">Find and collaborate with a specialist in their field.</p>
+          <div class="new_button_area flex items-center">
+            <a style="cursor:pointer" id="buyer-link" href="{{ url('/auth/register-business') }}" id="find-job-seller" class="lets_button bg-yellow-300 text-black py-2 px-5 text-base font-medium">HIRE</a>
+            <div class="lets-line w-11 h-0.5 bg-black"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+    
+   <script>
+        
+        
+        // Get the div element with id "lets-started-two"
+// const divElement = document.getElementById("lets-started-two 5");
+
+// // Check if the current route is "/lets-stared"
+// if (window.location.href === "{{ url('lets-started') }}") {
+//   // Change the style width to 100%
+//   divElement.style.width = "100%";
+
+//   // Add the class "let_started_area" to the div
+//   divElement.classList.add("lets-started");
+// }
+
+
+
+    </script>
+    
+ <?php
+// Get the current URL
+$currentUrl = $_SERVER['REQUEST_URI'];
+
+// Check if the current route is "/lets-started"
+if ($currentUrl === "/lets-started") {
+  // Change the style width to 100%
+  echo '<script>document.getElementById("lets-started-two").style.width = "100%";</script>';
+
+  // Add the class "let_started_area" to the div
+  echo '<script>document.getElementById("lets-started-two").classList.add("lets-started");</script>';
+  echo '<script>document.getElementById("lets-started-two").classList.add("lets-started");</script>';
+}
+// ?>
+
+    
+    
+    
+    
+</div>
